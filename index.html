@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telebachillerato Monte Blanco</title>
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			transition: 0.7s;
+			padding: 30px 20px;
+			z-index: 10;
+		}
+		header.abajo{
+			background: #000000;
+			padding: 15px 20px;
+		}
+		header .logo{
+			position: relative;
+			color: #fff;
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+			transition: 1.5s;
+			text-decoration: none;
+		}
+		nav{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		header ul{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		header ul li{
+			list-style: none;
+		}
+
+		header ul li a{
+			position: relative;
+			font-family: 'Ubuntu ligh';
+			margin: 0 15px;
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0);
+			letter-spacing: 2px;
+			font-weight: 600;
+			transition: 0.7s;
+            font-size: 20px;
+		}
+
+		.zona1{
+			position: relative;
+			width: 100%;
+			height: 100vh;
+			background: url(img/logo1.png);
+            background: url(img/tebaev.jpg);
+			background-size: cover;
+			background-position: center center;
+		}
+		header.abajo .logo,
+		header.abajo ul li a{
+			color: rgb(255, 255, 255);
+            font-family: 'Ubuntu ligh';
+		}
+        @media (max-width: 500px) {
+            header ul li a{
+                font-size: 12px;
+                margin: 0 10px;
+            }
+    }
+    @media (max-width: 400px) {
+            header ul li a{
+                font-size: 12px;
+                text-align: center;
+                margin: 0 7px;
+            }
+    }
+       </style>
+</head>
+<body>
+    
+    <a href="index.html" class="logo">
+        <img src="img/logo2.png" alt="logo de la empresa">
+        <h1 class="nombre de la empresa">Telebachillerato Monte Blanco</h1>
+    </a>
+    <header>
+         <nav>
+    <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+				<li><a href="#Oferta-educativa">Oferta educativa</a></li>
+				<li><a href="#Acerca-de-nosotros">Acerca</a></li>
+				<li><a href="#Generaciones">Generaciones</a></li>
+				<li><a href="#Eventos">Eventos</a></li>
+               
+			</ul>
+		</nav>
+    </header>
+   
+	<section class="zona1"></section>
+	<section>
+	
+	</section>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})
+	</script>
+    <main>
+        <br><br><br><br><br>
+        <!--Inicio-->
+        <h2></h2>
+        <span class="linea2" id="Inicio"></span>
+        <br><br><br><br><br>
+        <h2 class="titulo" id="">Telebachillerato Monte Blanco</h2>
+        <section class="contenedor sobre-nosotros">
+            <div class="contenedor-sobre-nosotros"></div>
+            <img src="img/inaguracion.jpg" alt="" class="imagen-about-us">
+                     <div class="contenido-textos">
+                        <h3><span><i class="fa-solid fa-landmark"></i></span>Reseña Institucional</h3>
+                        <p>Esta modalidad educativa se crea en enero de 1980 en el periodo de gobierno del Lic. Rafael Hernández Ochoa, como Consejo Técnico del Telebachillerato, encargándose de producir materiales televisivos que son la esencia del subsistema. Es hasta el 22 de septiembre de 1980 cuando se transmiten por primera vez las clases del Telebachillerato. En ese año se crearon 40 centros de estudio que albergaron a 1400 alumnos; su personal docente estaba conformado por 43 docentes de los Telecentros y 16 trabajadores de Oficinas Centrales. A partir de este momento, el Telebachillerato ha crecido notablemente, incrementándose el número de centros, maestros y alumnos. Actualmente se cuenta con 1080 Centros de estudio y 4,741 docentes que atienden a 73,905 alumnos en 202 municipios del Estado. Es importante señalar que el Telebachillerato ha sufrido modificaciones en sus planes y programas de estudio; de 1980 a 1986 se contaba con un plan de estudios de dos años, situación que ponía en desventaja a los egresados de esta modalidad ya que no eran admitidos en algunas instituciones de Educación Superior.  <br> <br>
+                            En 1987, con el cambio curricular que se da en la Dirección General de Educación Media Superior y Superior, se define un plan de estudios de tres años que se sustenta en el Acuerdo Secretarial 71 establecido en 1982, mismo que cuenta con un tronco común, una área propedéutica y una área de servicios y capacitación para el trabajo. En 2005, se inician los trabajos para la implementación de la Reforma Curricular tomando como base la propuesta de la Dirección General de Bachillerato de la SEP, con lo cual se actualizan los contenidos temáticos, y se facilita el libre tránsito interinstitucional de alumnos entre modalidades y entidades federativas. <br> <br>
+                            El Telebachillerato es una institución consolidada con 40 años de servicio que busca llevar la Educación Media Superior a través de aquellos que participan en el quehacer educativo con valores y promoción de las habilidades para la vida así como el uso de las TIC´S, fortaleciendo el espíritu crítico y propositivo de los estudiantes a favor de la sociedad en que viven, diseñando un modelo propio a la intención original de atención a comunidades marginadas.
+
+
+
+                   </div>
+                </section>
+     <!--Oferta-educativa -->
+     <br><br><br><br><br><br><br><br><br><br><br><br>
+     <h2></h2>
+     <span class="linea2" id="Oferta-educativa"></span>
+     <br><br><br><br><br>
+     <h2 class="titulo h2">Oferta educativa</h2>
+    <section class="contenedor sobre-nosotros" >
+    <div class="contenedor-sobre-nosotros">
+    <div class="contenido-textos">
+                <h3><span><i class="fa-solid fa-graduation-cap"></i></span>Bachillerato</h3>
+                <p>El Telebachillerato Monte Blanco se basa en el Plan y Programas de Estudio del Bachillerato General, utilizados en diversas instituciones del país donde se forman más de un millón de estudiantes, y está evaluado favorablemente por el Consejo para la Evaluación de la Educación del tipo Medio Superior COPEEMS, por lo que cumple con los preceptos de la Reforma Integral de la Educación Media Superior (RIEMS).</p>
+                <p>El Plan de Estudios incluye tres áreas disciplinares: <br><br>
+                     1.- Matemáticas y Ciencias Experimentales <br> <br> Matemáticas, Probabilidad y Estadística, Química, Biología, Ecología y Medio Ambiente, Física, Geografía y Ciencias de la Salud. <br><br> 2.- Ciencias Sociales y Humanidades <br><br>Ética y Valores, Derecho, Filosofía, Introducción a las Ciencias Sociales, Historia de México, Estructura Socioeconómica de México, Historia Universal Contemporánea, Metodología de la Investigación y Desarrollo Comunitario. <br><br> 3.- Comunicación <br> <br>Taller de Lectura y Redacción, Literatura, Ciencias de la Comunicación y Lengua Adicional al Español.</p>
+                <h3><span><i class="fa-solid fa-graduation-cap"></i></span>Inscripción</h3>
+                <section class="nosotros">
+                    <h2 class="titulo"></h2>
+                    <div class="cards">
+                        <div class="card2">
+                            
+                            <div class="contenido-texto-card">
+                                <h4>Requisitos de inscripción:</h4>
+                                <p>*Certificado de Secundaria original y dos copias. <br>
+
+                                    *Carta de buena conducta. <br>
+                                    
+                                    *Curp original y 2 copias. <br>
+                                    
+                                    *6 Fotografias de tamaño infantil y fondo blanco. <br>
+                                    
+                                    *Tipo de sangre.
+                                    </p>
+                            </div> 
+                        </div>
+                       </div>
+                </section>
+           </div>
+        </div>
+    </section>
+    <section class="Servicios-escolares">
+        <div class="contenedor">
+            <h2 class="Titulo"></h2>
+        </div>
+    </section>
+    <!--Acerca de nosotros -->
+    <span class="linea2" id="Acerca-de-nosotros"></span>
+    <br><br><br><br><br>
+    <h2 class="titulo h2">Acerca de nosotros</h2>
+    <section class="contenedor sobre-nosotros">
+        <div class="contenedor-sobre-nosotros"></div>
+        <img src="img/desfile 4.jpg" alt="" class="imagen-about-us">
+    </section>
+       
+        <section class="nosotros">
+            <h2 class="titulo"></h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/modalidad.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Modalidad educativa</h4>
+                        <p> Telebachillerato es una modalidad educativa que imparte de manera presencial el nivel medio superior, a las comunidades rurales, semirurales e indígenas apoyado en las nuevas tecnologías de la información y de la comunicación.</p>
+                    </div>
+    
+                </div>
+                
+                 </div>
+        </section>
+        <section class="nosotros">
+            <h2 class="titulo"></h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/Vision.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Visión</h4>
+                        <p>Es una institución consolidada en su estructura, que ofrece un servicio de calidad, donde los actores educativos están comprometidos con su función en aras de una formación integral basada en valores, en el desarrollo de competencias y el uso de las Tecnologías Modernas de la Información y Comunicación (TIC´S).</p>
+                    </div> 
+                </div>
+               </div>
+        </section>
+        <section class="nosotros">
+            <h2 class="titulo"></h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/mision.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Misión</h4>
+                        <p>Formar alumnos críticos y propositivos, capaces de enfrentar con eficiencia, orgullo y dignidad los retos y demandas de la sociedad, a través de la implementación de un modelo pedagógico propio, que fomente el compromiso de los actores educativos con el entorno sociocultural.</p>
+                    </div> 
+                </div>
+               </div>
+        </section>
+        <section class="contenedor sobre-nosotros" >
+            <div class="contenedor-sobre-nosotros"></div>
+                 <div class="contenido-textos">
+                     <section class="contenedor sobre-nosotros">
+                        <h2 class="titulo h2"></h2>
+                        <div class="contenedor-sobre-nosotros">
+                            <div class="contenido-textos">
+                            <h3><span><i class="fa-solid fa-location-dot"></i></span>Ubicación</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3238298999195!2d-97.0182681!3d18.9613007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e15810b5605b%3A0x48f83e0f30010cb1!2sTelebachillerato%20Monte%20Blanco!5e0!3m2!1ses!2smx!4v1656373839436!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="imagen-about-us"></iframe>
+                 </div>
+                </div>
+            </section>
+                </div>
+    </section> 
+    
+    
+    <!--Generaciones -->
+    <br><br><br><br><br><br><br>
+    <h2></h2>
+    <span class="linea2" id="Generaciones"></span>
+    <br><br><br><br><br>
+    <h2 class="titulo h2" id="Generaciones">Generaciones</h2>
+    <section class="contenedor sobre-nosotros">
+    <div class="contenedor-sobre-nosotros">
+    <div class="contenido-textos">
+    <h3><span><i class="fa-solid fa-user-graduate"></i></span> Generaciones </h3>
+     <p>Algunas fotos de generaciones de alumnos que concluyeron sus estudios dentro de la institución.</p>
+     </div>
+    </section>
+        <span class="linea"></span>
+         <section class="galeria">
+          <a href="#image16"><img src="img/generacion 1.jpg" alt=""></a>
+          <a href="#image17"><img src="img/generacion 2.jpg" alt=""></a>
+          <a href="#image18"><img src="img/generacion 3.jpg" alt=""></a>
+          <a href="#image19"><img src="img/generacion 4.jpg" alt=""></a>
+          <a href="#image20"><img src="img/generacion 5.jpg" alt=""></a>
+          <a href="#image21"><img src="img/generacion 6.jpg" alt=""></a>
+      
+    
+        </section>
+        <article class="light-box" id="image16">
+          <a href="#image21" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 1.jpg" alt="">
+          <a href="#image17" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+      <article class="light-box" id="image17">
+          <a href="#image16" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 2.jpg" alt="">
+          <a href="#image18" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+    
+      <article class="light-box" id="image18">
+          <a href="#image17" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 3.jpg" alt="">
+          <a href="#image19" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+    
+      <article class="light-box" id="image19">
+          <a href="#image18" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 4.jpg" alt="">
+          <a href="#image20" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+    
+      <article class="light-box" id="image20">
+          <a href="#image19" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 5.jpg" alt="">
+          <a href="#image21" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+    
+      <article class="light-box" id="image21">
+          <a href="#image20" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+          <img src="img/generacion 6.jpg" alt="">
+          <a href="#image16" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#main" class="close">X</a>
+          
+      </article>
+    
+    
+        
+    </article>
+      <script src="https://kit.fontawesome.com/abd08f8013.js" crossorigin="anonymous"></script>
+    
+    <!--Eventos-->
+    <br><br><br><br><br><br><br>
+    <h2></h2>
+    <span class="linea2" id="Eventos"></span>
+    <br><br><br><br><br>
+    <h2 class="titulo h2" id="Eventos">Eventos</h2>
+    <section class="contenedor sobre-nosotros" >
+       <div class="contenedor-sobre-nosotros">
+            <div class="contenido-textos">
+                <h3><span><i class="fa-solid fa-calendar-day"></i></span>Olimpiadas de la Ciencia</h3>
+                <p>Promover el estudio de la Matemáticas, Física, Biología, Química y, así como estimular el
+                    desarrollo de jóvenes talentos en estas disciplinas a través de la evaluación de sus conocimientos,
+                    habilidades, destrezas y aptitudes para seleccionar a las y los estudiantes del subsistema de
+                    Telebachillerato, quienes integrarán la delegación que representará en la etapa Estatal.
+                    </p>
+              <h3><span><i class="fa-solid fa-calendar-day"></i></span>Semana del estudiante</h3>
+                <p>Es una fecha que celebra el acto de estudiar y la importancia que tienen los jóvenes en el desarrollo y progreso de 
+                    una nación. Además de ser un recordatorio de la lucha en pro de una educación más abierta y participativa. </p>
+                <p> Dentro de la institución se realizan torneos de futbol, basquetbol y voleibol  entre 
+                    compañeros de cada salón.
+                    También se lleva acabo eventos recreativos como lo son juegos de competencia, audiciones de música y 
+                    últimamente se realizó un concierto de rock para los alumnos.</p>
+                <h3><span><i class="fa-solid fa-calendar-day"></i></span>Festival día de las Madres</h3>
+                <p>Como cada año el dia 10 de mayo se realiza en el Telebachillerato Monte Blanco un festival para conmemorar el día de las madres.</p>
+                <h3><span><i class="fa-solid fa-calendar-day"></i></span>Día de la Mujer</h3>
+                <p>8 de Marzo "Día Internacional de la Mujer".  El Telebachillerato celebra a todas las mujeres inculcando a los alumnos el debido respeto, admiración y reconocimiento que se debe tener hacia la mujer.</p>
+                <h3><span><i class="fa-solid fa-calendar-day"></i></span>Día Naranja</h3>
+                <p>El pasado miercoles 25 de marzo se realizó en nuestra escuela la exposición de temas relacionados con el tema de la NO violencia hacia la mujer. Este día como todos los días 25 de cada mes se realizan actividades para erradicar el maltrato a la mujer haciendo conciencia entre la sociedad y en este caso entre los estudiantes sobre la importancia de tener un trato igualitario entre hombres y mujeres, con respeto e igualdad de oportunidades.</p>    
+                
+                
+    
+           </div>
+        </div>
+    </section>
+    <h2 class="titulo">Fotos</h2>
+    <span class="linea"></span>
+    <section class="galeria">
+      <a href="#image1"><img src="img/olimpiadas.jpg" alt=""></a>
+      <a href="#image2"><img src="img/olimpiadas 2.jpg" alt=""></a>
+      <a href="#image3"><img src="img/olimpiadas 3.jpg" alt=""></a>
+      <a href="#image4"><img src="img/dia de las madres 3.jpg" alt=""></a>
+      <a href="#image5"><img src="img/dia de las madres 1.jpg" alt=""></a>
+      <a href="#image6"><img src="img/dia de las madres 2.jpg" alt=""></a>
+      <a href="#image7"><img src="img/dia de la mujer 1.jpg" alt=""></a>
+      <a href="#image8"><img src="img/dia de la mujer 3.jpg" alt=""></a>
+      <a href="#image9"><img src="img/dia de la mujer 2.jpg" alt=""></a>
+      <a href="#image10"><img src="img/semana del estudiante 2.jpg" alt=""></a>
+      <a href="#image11"><img src="img/semana del estudiante 1.jpg" alt=""></a>
+      <a href="#image12"><img src="img/semana del estudiante 4.jpg" alt=""></a>
+      <a href="#image13"><img src="img/dia naranja.jpg" alt=""></a>
+      <a href="#image14"><img src="img/dia naranja 2.jpg" alt=""></a>
+      <a href="#image15"><img src="img/dia naranja 3.jpg" alt=""></a>
+    
+    </section>
+    <article class="light-box" id="image1">
+      <a href="#image15" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/olimpiadas.jpg" alt="">
+      <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    <article class="light-box" id="image2">
+      <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/olimpiadas 2.jpg" alt="">
+      <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image3">
+      <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/olimpiadas 3.jpg" alt="">
+      <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image4">
+      <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de las madres 3.jpg" alt="">
+      <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image5">
+      <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de las madres 1.jpg" alt="">
+      <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image6">
+      <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de las madres 2.jpg" alt="">
+      <a href="#image7" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image7">
+      <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de la mujer 1.jpg" alt="">
+      <a href="#image8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image8">
+      <a href="#image7" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de la mujer 3.jpg" alt="">
+      <a href="#image9" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image9">
+      <a href="#image8" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/dia de la mujer 2.jpg" alt="">
+      <a href="#image10" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    <article class="light-box" id="image10">
+      <a href="#image9" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/semana del estudiante 2.jpg" alt="">
+      <a href="#image11" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    <article class="light-box" id="image11">
+      <a href="#image10" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/semana del estudiante 1.jpg" alt="">
+      <a href="#image12" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    
+    <article class="light-box" id="image12">
+      <a href="#image11" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/semana del estudiante 4.jpg" alt="">
+      <a href="#image13" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#main" class="close">X</a>
+      
+    </article>
+    <article class="light-box" id="image13">
+    <a href="#image12" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+    <img src="img/dia naranja.jpg" alt="">
+    <a href="#image14" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="#main" class="close">X</a>
+    
+    </article>
+    
+    <article class="light-box" id="image14">
+    <a href="#image13" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+    <img src="img/dia naranja 2.jpg" alt="">
+    <a href="#image15" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="#main" class="close">X</a>
+    
+    </article>
+    
+    <article class="light-box" id="image15">
+    <a href="#image14" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+    <img src="img/dia naranja 3.jpg" alt="">
+    <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+    <a href="#main" class="close">X</a>
+    
+    </article>
+    <script src="https://kit.fontawesome.com/abd08f8013.js" crossorigin="anonymous"></script>
+     
+    
+    
+    
+    </main>
+    
+     
+    <footer class="pie-pagina" id="Footer"> 
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="img/logo2.png" alt="Logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>Email</h2>
+                    <p>30eth0175l@mediasuperior.msev.gob.mx</p>
+                    <h2>Dirección</h2>
+                    <p>Carretera federal Fortín - Huatusco Km. 6.5   Monte Blanco, Fortín, Ver.</p>
+                     </div>
+                    
+                <div class="box">
+                    <h2></h2>
+                    <p></p>
+                
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/tebaevmonteblanco0175l " target="_blank" class="fa fa-facebook" ></a>
+                        <a href="#" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://api.whatsapp.com/send?phone=522712315602&app=facebook&entry_point=page_cta&fbclid=IwAR0gOvVeRpwM0xj7D72xFWJsXIriv1ub_GzU1E3KVrbn0e7i4Kr4l4VUaNk" target="_blank" class="fa fa-whatsapp"></a>
+                        <a href="https://www.youtube.com/channel/UCqQg5YP4Bpcgkio9seFlYRw" target="_blank" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>© Telebachillerato Monte Blanco</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    
+</body>
+</html>
